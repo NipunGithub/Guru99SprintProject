@@ -8,15 +8,10 @@
 			<include name="regression"></include>
 		</run>
 	</groups>
-
-	<test name="Grouping in Guru99">
-
+		<test name="Grouping in Guru99">
 		<classes>
-
 			<class name="com.Sprint.ValidatingLoginCredentials" />
-
 			<class name="com.Sprint.ValidatingRequestQuotation" />
-
 		</classes>
 	</test>
 </suite>

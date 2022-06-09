@@ -229,6 +229,7 @@ public class ValidatingRequestQuotation {
 			// To validate Save Quotation Button Functionality
 			driver.findElement(By.xpath("//input[@value='Save Quotation']")).click();
 			Thread.sleep(2000);
+			System.out.println("Request Quotation Successful");
 		} catch (Exception ex) // To catch Exception
 		{
 			verificationError = ex.getMessage();

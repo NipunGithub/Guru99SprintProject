@@ -126,6 +126,7 @@ public class ValidationRetrieveQuotation {
 			// To validate Retrieve Button Functionality
 			driver.findElement(By.xpath("//*[@id=\"getquote\"]")).click();
 			Thread.sleep(2000);
+			System.out.println("Retreive Quotation Successful");
 		} catch (Exception ex) // To Catch Exception
 		{
 			verificationError = ex.getMessage();
