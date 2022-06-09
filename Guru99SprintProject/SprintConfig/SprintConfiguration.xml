@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon test ng suite">
+	<test name="Verify Login Page">
+		<classes>
+			<class name="com.Sprint.ValidatingGuruLogoAndTitle" />
+			<class name="com.Sprint.ValidatingLoginCredentials" />
+			<class name="com.Sprint.ValidatingRegisterButton_Title_GuruLogo" />
+			<class name="com.Sprint.ValidatingRequestQuotation" />
+			<class name="com.Sprint.ValidationRetrieveQuotation" />
+		</classes>
+	</test>
+</suite>

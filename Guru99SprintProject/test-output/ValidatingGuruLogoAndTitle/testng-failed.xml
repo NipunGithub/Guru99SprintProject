@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ValidatingGuruLogoAndTitle]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ValidatingGuruLogoAndTitle(failed)">
+    <classes>
+      <class name="com.Sprint.ValidatingGuruLogoAndTitle">
+        <methods>
+          <include name="setUp"/>
+          <include name="VerifyGuru99TtitleTest"/>
+          <include name="VerifyGuruLogoTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Sprint.ValidatingGuruLogoAndTitle -->
+    </classes>
+  </test> <!-- ValidatingGuruLogoAndTitle(failed) -->
+</suite> <!-- Failed suite [ValidatingGuruLogoAndTitle] -->

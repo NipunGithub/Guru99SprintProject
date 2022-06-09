@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ValidatingRegisterButton_Title_GuruLogo">
+  <test thread-count="5" name="ValidatingRegisterButton_Title_GuruLogo">
+    <classes>
+      <class name="com.Sprint.ValidatingRegisterButton_Title_GuruLogo"/>
+    </classes>
+  </test> <!-- ValidatingRegisterButton_Title_GuruLogo -->
+</suite> <!-- ValidatingRegisterButton_Title_GuruLogo -->
