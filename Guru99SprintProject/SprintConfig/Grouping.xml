@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Grouping in Guru99">
+	
+	<groups>
+		<run>
+			<include name="sanity"></include>
+			<include name="regression"></include>
+		</run>
+	</groups>
+
+	<test name="Grouping in Guru99">
+
+		<classes>
+
+			<class name="com.Sprint.ValidatingLoginCredentials" />
+
+			<class name="com.Sprint.ValidatingRequestQuotation" />
+
+		</classes>
+	</test>
+</suite>

@@ -28,7 +28,7 @@ public class ValidatingRequestQuotation {
 		url = "https://demo.guru99.com/v4/";
 	}
 
-	@Test(priority = 1)
+	@Test (priority=1 , groups={"regression"})
 	public void ValidatingCalculatePremiumTest() // To calculate Premium
 	{
 		try {

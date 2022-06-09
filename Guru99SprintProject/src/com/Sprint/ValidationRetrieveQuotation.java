@@ -36,14 +36,19 @@ public class ValidationRetrieveQuotation {
 			driver.get(url);
 			// To validate insurance Project Button functionality
 			driver.findElement(By.xpath("//a[contains(text(),'Insurance Project')]")).click();
+			Thread.sleep(2000);
 			// To Enter valid Email
 			driver.findElement(By.id("email")).sendKeys("nipunbin2698@gmail.com");
+			Thread.sleep(2000);
 			// To enter valid Password
 			driver.findElement(By.id("password")).sendKeys("Hello#123");
+			Thread.sleep(2000);
 			// To Validate Login Button Functionality
 			driver.findElement(By.xpath("//input[@name='submit']")).click();
+			Thread.sleep(2000);
 			// To validate Request Quotation Button Functionality
 			driver.findElement(By.xpath("//a[@href='#tabs-2']")).click();
+			Thread.sleep(2000);
 			// To Enter Valid Breakdown Cover from Dropdown Button
 			Select title1 = new Select(driver.findElement(By.xpath("//select[@id=\"quotation_breakdowncover\"]")));
 			// Selected European From Dropdown Button

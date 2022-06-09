@@ -31,7 +31,7 @@ public class ValidatingLoginCredentials {
 				url = "https://demo.guru99.com/v4/";
 	}
 
-	@Test(priority = 1)
+	@Test (priority=1 , groups={"Sanity"})
 	public void ValidatingLogInCredentialsTest() {
 		try {
 			//To get the URL
